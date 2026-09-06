@@ -1,0 +1,46 @@
+
+[game]
+name = "Colony Wars"
+id = "SLUS-00543"
+players = 1
+exe = "disc/SLUS_005.43"
+disc = "disc/Colony Wars (USA) (Disc 1).cue"
+load_address = "0x80010000"
+entry_pc = "0x8005B840"
+text_size = "0x00064800"
+stack_base = "0x801FFFF0"
+discs = ["disc/Colony Wars (USA) (Disc 1).cue", "disc/Colony Wars (USA) (Disc 2).cue"]
+disc_serials = ["SLUS-00543", "SLUS-00554"]
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Colony Wars (USA) (Disc 1) (Track 1).bin"
+cue_name = "Colony Wars (USA) (Disc 1).cue"
+boot_exe = "SLUS_005.43"
+known_sizes = [525650832, 559559616]
+known_md5 = ["3d2bf0efa439a02fe95520ebb0ec26ea", "f7bcc5596a1929411b7919115d0417db"]
+known_sha1 = ["5ad8f6a62f9772b0725477e365489f8efabc1371", "192d078912de28b6f167b3c6e8740c1c71c8ea76"]
+known_crc32 = ["01ca7e95", "a7fb080f"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Colony Wars Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 2
+required_disc_fp = "5581dce6dcdd7e4c5a96eaba1df53fc2a98bd962efbca49364bd4129b9c64903"

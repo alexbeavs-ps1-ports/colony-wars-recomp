@@ -1,0 +1,57 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Colony Wars (USA) (Disc 1).cue",
+      "bin_name": "Colony Wars (USA) (Disc 1) (Track 1).bin",
+      "size": 525650832,
+      "md5": "3d2bf0efa439a02fe95520ebb0ec26ea",
+      "sha1": "5ad8f6a62f9772b0725477e365489f8efabc1371",
+      "crc32": "01ca7e95",
+      "track_count": 2,
+      "tracks": [
+        {
+          "name": "Colony Wars (USA) (Disc 1) (Track 1).bin",
+          "size": "525650832",
+          "crc": "01ca7e95",
+          "md5": "3d2bf0efa439a02fe95520ebb0ec26ea",
+          "sha1": "5ad8f6a62f9772b0725477e365489f8efabc1371"
+        },
+        {
+          "name": "Colony Wars (USA) (Disc 1) (Track 2).bin",
+          "size": "33908784",
+          "crc": "857edda8",
+          "md5": "369ff3006396bbca8d9a1fb9cc125af9",
+          "sha1": "28a06c34d53442f736fed283c086340d7c56321e"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "cue_name": "Colony Wars (USA) (Disc 2).cue",
+      "bin_name": "Colony Wars (USA) (Disc 2) (Track 1).bin",
+      "size": 642091296,
+      "md5": "924e924f15d94f609e10d34c36064ee9",
+      "sha1": "723491c2876588172e020f9b66c978f0d757ed57",
+      "crc32": "54adbe0a",
+      "track_count": 2,
+      "tracks": [
+        {
+          "name": "Colony Wars (USA) (Disc 2) (Track 1).bin",
+          "size": "642091296",
+          "crc": "54adbe0a",
+          "md5": "924e924f15d94f609e10d34c36064ee9",
+          "sha1": "723491c2876588172e020f9b66c978f0d757ed57"
+        },
+        {
+          "name": "Colony Wars (USA) (Disc 2) (Track 2).bin",
+          "size": "33908784",
+          "crc": "857edda8",
+          "md5": "369ff3006396bbca8d9a1fb9cc125af9",
+          "sha1": "28a06c34d53442f736fed283c086340d7c56321e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Colony Wars",
+    "id": "SLUS-00543",
+    "boot_exe": "SLUS_005.43"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Colony Wars (USA) (Disc 1).cue",
+    "bin_name": "Colony Wars (USA) (Disc 1) (Track 1).bin",
+    "track_counts": [
+      2
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 525650832,
+      "md5": "3d2bf0efa439a02fe95520ebb0ec26ea",
+      "sha1": "5ad8f6a62f9772b0725477e365489f8efabc1371",
+      "crc32": "01ca7e95"
+    },
+    "disc_fp": "5581dce6dcdd7e4c5a96eaba1df53fc2a98bd962efbca49364bd4129b9c64903",
+    "discs": [
+      {
+        "index": 1,
+        "cue_name": "Colony Wars (USA) (Disc 1).cue",
+        "bin_name": "Colony Wars (USA) (Disc 1) (Track 1).bin",
+        "size": 525650832,
+        "md5": "3d2bf0efa439a02fe95520ebb0ec26ea",
+        "sha1": "5ad8f6a62f9772b0725477e365489f8efabc1371",
+        "crc32": "01ca7e95",
+        "track_count": 2,
+        "tracks": [
+          {
+            "name": "Colony Wars (USA) (Disc 1) (Track 1).bin",
+            "size": "525650832",
+            "crc": "01ca7e95",
+            "md5": "3d2bf0efa439a02fe95520ebb0ec26ea",
+            "sha1": "5ad8f6a62f9772b0725477e365489f8efabc1371"
+          },
+          {
+            "name": "Colony Wars (USA) (Disc 1) (Track 2).bin",
+            "size": "33908784",
+            "crc": "857edda8",
+            "md5": "369ff3006396bbca8d9a1fb9cc125af9",
+            "sha1": "28a06c34d53442f736fed283c086340d7c56321e"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "cue_name": "Colony Wars (USA) (Disc 2).cue",
+        "bin_name": "Colony Wars (USA) (Disc 2) (Track 1).bin",
+        "size": 642091296,
+        "md5": "924e924f15d94f609e10d34c36064ee9",
+        "sha1": "723491c2876588172e020f9b66c978f0d757ed57",
+        "crc32": "54adbe0a",
+        "track_count": 2,
+        "tracks": [
+          {
+            "name": "Colony Wars (USA) (Disc 2) (Track 1).bin",
+            "size": "642091296",
+            "crc": "54adbe0a",
+            "md5": "924e924f15d94f609e10d34c36064ee9",
+            "sha1": "723491c2876588172e020f9b66c978f0d757ed57"
+          },
+          {
+            "name": "Colony Wars (USA) (Disc 2) (Track 2).bin",
+            "size": "33908784",
+            "crc": "857edda8",
+            "md5": "369ff3006396bbca8d9a1fb9cc125af9",
+            "sha1": "28a06c34d53442f736fed283c086340d7c56321e"
+          }
+        ]
+      }
+    ]
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x8005B840",
+    "text_size": "0x00064800",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 450,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
