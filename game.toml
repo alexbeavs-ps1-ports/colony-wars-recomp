@@ -17,13 +17,25 @@ out_dir = "disc"
 bin_name = "Colony Wars (USA) (Disc 1) (Track 1).bin"
 cue_name = "Colony Wars (USA) (Disc 1).cue"
 boot_exe = "SLUS_005.43"
-known_sizes = [525650832, 559559616]
-known_md5 = ["3d2bf0efa439a02fe95520ebb0ec26ea", "f7bcc5596a1929411b7919115d0417db"]
-known_sha1 = ["5ad8f6a62f9772b0725477e365489f8efabc1371", "192d078912de28b6f167b3c6e8740c1c71c8ea76"]
-known_crc32 = ["01ca7e95", "a7fb080f"]
+known_sizes = [525650832, 642091296, 559559616]
+known_md5 = [
+  "3d2bf0efa439a02fe95520ebb0ec26ea",
+  "924e924f15d94f609e10d34c36064ee9",
+  "f7bcc5596a1929411b7919115d0417db",
+]
+known_sha1 = [
+  "5ad8f6a62f9772b0725477e365489f8efabc1371",
+  "723491c2876588172e020f9b66c978f0d757ed57",
+  "192d078912de28b6f167b3c6e8740c1c71c8ea76",
+]
+known_crc32 = [
+  "01ca7e95",
+  "54adbe0a",
+  "a7fb080f",
+]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
